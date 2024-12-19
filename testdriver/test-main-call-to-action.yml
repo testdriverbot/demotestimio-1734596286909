@@ -1,0 +1,10 @@
+version: 4.1.30
+steps:
+  - prompt: >-
+      Identify the main call to action button  # Use the content of the file
+      from the environment
+    commands:
+      - command: hover-text
+        text: SELECT DESTINATION
+        description: main call to action button in the center of the page
+        action: click
