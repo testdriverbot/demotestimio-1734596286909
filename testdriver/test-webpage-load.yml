@@ -1,0 +1,18 @@
+version: 4.1.30
+steps:
+  - prompt: Assert that the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: the webpage is loaded with Space Advisor content
+  - prompt: >-
+      Assert that the logo is visible on the webpage.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the "Space Advisor" logo is visible
+  - prompt: >-
+      Assert that the logo is visible on the webpage.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the "Space Advisor" logo is visible on the webpage
