@@ -1,0 +1,34 @@
+version: 4.1.30
+steps:
+  - prompt: Interact with the drop-down for "Launch" and "Planet color."
+    commands:
+      - command: hover-text
+        text: Launch
+        description: launch drop-down menu
+        action: click
+      - command: hover-text
+        text: Planet color
+        description: planet color drop-down menu
+        action: click
+  - prompt: Select options from the drop-downs.
+    commands:
+      - command: hover-text
+        text: Blue
+        description: blue option in planet color drop-down
+        action: click
+      - command: hover-text
+        text: Launch
+        description: launch drop-down menu
+        action: click
+      - command: hover-text
+        text: Tayabamba
+        description: Tayabamba option in launch drop-down
+        action: click
+      - command: hover-text
+        text: Madan
+        description: Madan option in launch drop-down
+        action: click
+      - command: hover-text
+        text: Launch
+        description: launch drop-down menu
+        action: click
